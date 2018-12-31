@@ -6,30 +6,30 @@
 # structure. Add your customizations after the import line.
 ---
 
-$header-background-color: #32363a;
-$brand-color:      #efeeeb;
-$text-color: #32363a;
-$carbon-ad-width: 140px;
-$baseurl: '{{ site.baseurl }}';
+// $header-background-color: #32363a;
+// $brand-color:      #efeeeb;
+// $text-color: #32363a;
+// $carbon-ad-width: 140px;
+// $baseurl: '{{ site.baseurl }}';
 
 @import 'haackbar';
 
-h1.post-title a {
-  color: $text-color;
+// h1.post-title a {
+//   color: $text-color;
 
-  &:hover {
-    color: $brand-color;
-  }
-}
+//   &:hover {
+//     color: $brand-color;
+//   }
+// }
 
-.site-nav {
-  margin-top: 10%;
-}
+// .site-nav {
+//   margin-top: 10%;
+// }
 
-.site-nav ul li {
-  @include relative-font-size(1.1);
-  @include relative-font-weight(.5);
-}
+// .site-nav ul li {
+//   @include relative-font-size(1.1);
+//   @include relative-font-weight(.5);
+// }
 
 // .site-footer {
 //   margin-left: 0;
@@ -47,32 +47,32 @@ h1.post-title a {
 //   width: calc(60% - (#{$spacing-unit} / 2));
 // }
 
-.pagination {
-  padding-bottom: 30px;
-}
+// .pagination {
+//   padding-bottom: 30px;
+// }
 
-.page img.profile {
-  float: left;
-  margin: 0 30px 30px 0;
-  width: 260px;
+// .page img.profile {
+//   float: left;
+//   margin: 0 30px 30px 0;
+//   width: 260px;
 
-  @media screen and (max-width: $on-mobile) {
-    clear: both;
-    display: block;
-    float: none;
-    margin: 0 auto;
- }
+//   @media screen and (max-width: $on-mobile) {
+//     clear: both;
+//     display: block;
+//     float: none;
+//     margin: 0 auto;
+//  }
 
- .post-content h2 {
-   clear: both;
- }
-}
+//  .post-content h2 {
+//    clear: both;
+//  }
+// }
 
-.matrix {
-  font-size: 14px;
+// .matrix {
+//   font-size: 14px;
 
-  th,
-  td {
-    padding: 5px 10px;
-  }
-}
+//   th,
+//   td {
+//     padding: 5px 10px;
+//   }
+// }
