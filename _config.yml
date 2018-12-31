@@ -29,8 +29,8 @@ rss: rss
 # 
 # By default, your site generates a subscription feed (RSS/Atom) at /feed.xml
 # Uncomment the next two lines to change the path.
- feed:
-   path: /atom.xml
+feed:
+  path: /atom.xml
 
 # If you use a feed publisher such as Feedburner, uncomment the next line
 # subscribe_rss: https://your-feedburner-url/
@@ -57,42 +57,15 @@ haackbar:
 # Jekyll Settings
 #
 permalink: /archive/:year/:month/:day/:title/
-paginate: 2 # number of posts per page
+paginate: 10 # number of posts per page
 page_group_size: 5 # number of pages to group by in the pagination.
 paginate_path: "/archive/page/:num"
 category_dir: categories
-
-# Front matter defaults
-defaults:
-  -
-    scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      layout: post
-      comments: false
-  -
-    scope:
-      path: "pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
-  -
-    scope:
-      path: "assets/pages"
-      type: "pages"
-    values:
-      layout: page
-      comments: false
 
 # Build settings
 markdown: kramdown
 kramdown:
   hard_wrap: false
-exclude:
-  - Gemfile
-  - Gemfile.lock
 remote_theme: haacked/haackbar
 
 plugins:
