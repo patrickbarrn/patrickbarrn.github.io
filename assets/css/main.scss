@@ -31,21 +31,21 @@ h1.post-title a {
   @include relative-font-weight(.5);
 }
 
-.site-footer {
-  margin-left: 0;
-}
+// .site-footer {
+//   margin-left: 0;
+// }
 
-.footer-col-1 {
-  width: calc(20% - (#{$spacing-unit} / 2));
-}
+// .footer-col-1 {
+//   width: calc(20% - (#{$spacing-unit} / 2));
+// }
 
-.footer-col-2 {
-  width: calc(20% - (#{$spacing-unit} / 2));
-}
+// .footer-col-2 {
+//   width: calc(20% - (#{$spacing-unit} / 2));
+// }
 
-.footer-col-3 {
-  width: calc(60% - (#{$spacing-unit} / 2));
-}
+// .footer-col-3 {
+//   width: calc(60% - (#{$spacing-unit} / 2));
+// }
 
 .pagination {
   padding-bottom: 30px;
